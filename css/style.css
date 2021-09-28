@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navigation {
+    border-bottom: 1px solid black;
+    overflow: hidden;
+    padding-left: 16px;
+    padding-bottom: 10px;
+}
+  
+.navigation a {
+    float: left;
+    color: black;
+    text-align: bottom;
+    padding: 21px 16px;
+    text-decoration: none;
+    font-size: 2vh;
+}
+  
+.navigation a:hover {
+    color: blue;
+    text-decoration: underline blue;
+}   
+
+#body {
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+#banner {
+    border-top: 1px solid black;
+    background-image: url(../pics/banner.png);
+    background-position: center left;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: 0;
+	margin-bottom: 1.5em;
+	text-align: center;
+	overflow: hidden;
+	height: 120px;
+}
+
+#banner h1 {
+    background-image: url(../pics/mobian.png);
+    object-fit: fill;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding-top: 130px;
+    overflow: hidden;
+    text-align: center;
+    background-repeat: no-repeat;
+    display: block;
+    margin: 0;
+    height: 0;
+}
+
+.content {
+    width: 50vw;
+    padding: 10px;
+    margin: auto;
+    text-align: left;
+}
+
+.download {
+    background-image: url(../pics/debian-swirl.png);
+    background-position: center;
+	background-repeat: no-repeat;
+	background-size:contain;
+	margin-top: 0;
+	margin-bottom: 1.5em;
+	text-align: center;
+	height: 300px !important;
+}
+
+.download h1 {
+    color: white;
+    text-decoration: underline white;
+    object-fit: fill;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding-top: 130px;
+    overflow: hidden;
+    text-align: center;
+    background-repeat: no-repeat;
+    display: block;
+    margin: 0;
+    height: 300px;
+}
+
+footer {
+    border-top: 1px solid black;
+}
+
+/* Mobile optimizations */
+
+@media only screen and (max-width: 1026px) {
+    
+    h1 {
+        font-size: 4vh !important;
+        margin-bottom: 3vh !important;
+    }
+    
+    h2 {
+        font-size: 3.5vh !important;
+        margin-bottom: 3vh !important;
+        margin-top: 3vh !important;
+    }
+    
+    p {
+        font-size: 2.5vh !important;
+        margin-bottom: 3vh !important;
+    }
+    
+    li {
+    font-size: 2.5vh !important;
+    }
+    
+    h6 {
+        font-size: 1.7vh !important;
+        margin-bottom: 3vh !important;
+        margin-top: 3vh !important;
+    }
+    
+    .content {
+        width: 100%;
+        padding: 20px;
+    }  
+}
