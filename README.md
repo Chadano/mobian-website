@@ -8,4 +8,4 @@ The Mobian website in its current state is inconsistent across pages and does no
 The website was developed using HTML, CSS and JavaScript and is generated using [Eleventy](https://11ty.dev/), however the Mobian project will still be using Hugo as the backend SSG for the website. The project lead for Mobian will use the source code from the website and make adjustments where necessary to get it running with Hugo.
 
 ## Credits
-This website was created by [MrBeeBenson](https://mrbeebenson.github.io) for the Mobian project and is licensed under GPLv3
+This website was created by [MrBeeBenson](https://mrbeebenson.github.io) for the Mobian project and is licensed under GPLv3.
