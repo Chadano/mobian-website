@@ -68,12 +68,22 @@ body {
     color: white !important;
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 20px !important;
     overflow: hidden;
     background-color: #111;
     height: 7vh;
 }
 
+/* 
+
+    color: white !important;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #111;
+    height: 7vh;
+    */
 
 
 .main {
@@ -156,6 +166,32 @@ a:hover {
 
     .sidenav {
         display: none;
+    }
+
+    #banner {
+        border-top: 1px solid black;
+        background-image: url(../assets/banner.png);
+        background-position: center left;
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        overflow: hidden;
+        height: 10vh;
+        margin: 10px;
+    }
+    
+    #banner h1 {
+        background-image: url(../assets/mobian.png);
+        object-fit: fill;
+        background-position: center;
+        background-color: rgba(0, 0, 0, 0.4);
+        padding-top: 130px;
+        overflow: hidden;
+        text-align: center;
+        background-repeat: no-repeat;
+        display: block;
+        margin: 0;
+        height: 10vh;
     }
   
 }

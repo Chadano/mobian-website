@@ -6,7 +6,7 @@
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: rgba(45, 45, 45, 1);
+    background-color: #212121;
     overflow-y: hidden;
     transition: 0.5s;
   }
@@ -22,14 +22,14 @@
   .overlay a {
     padding: 8px;
     text-decoration: none;
-    font-size: 36px;
-    color: #818181;
+    font-size: 5vh !important;
+    color: white !important;
     display: block;
     transition: 0.3s;
   }
   
   .overlay a:hover, .overlay a:focus {
-    color: #555555;
+    color: white !important;
   }
   
   .overlay .closebtn {
